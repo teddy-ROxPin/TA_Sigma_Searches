@@ -16,6 +16,7 @@ The rules that were previously in the 'sysmon' folder seem to have spread throug
 * network_connection
 * process_access
 * registry_event
+
 For now, I'm treating them as if they were still in the 'sysmon' folder so the search name will still have the postfix '- sysmon'
 
 ### Search Naming Convention -> $SigmaTitle - source
