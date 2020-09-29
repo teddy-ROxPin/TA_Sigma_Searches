@@ -1,6 +1,6 @@
 # TA_Sigma_Searches
 A Splunk app that contains [Florian Roth](https://twitter.com/Cyb3rOps)'s [Sigma](https://github.com/Neo23x0/sigma) rules converted to Splunk searches.
-* Up-to-date as of 8-23-20 with Sigma commit: 437a807a1dc3cbc339232bf2cd19ccb2c4a0112b
+* Up-to-date as of 9-26-20 with Sigma commit: 2cd9b794e677a038f3ace5b15d649ca191809846
 
 Inspiration from [TA-Sigma-Searches](https://github.com/dstaulcu/TA-Sigma-Searches).
 ### Currently includes the rules from: sigma/rules/windows/
