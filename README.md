@@ -1,6 +1,6 @@
 # TA_Sigma_Searches
 A Splunk app that contains [Florian Roth](https://twitter.com/Cyb3rOps)'s [Sigma](https://github.com/Neo23x0/sigma) rules converted to Splunk searches.
-* Up-to-date as of 2021-5-9 with Sigma commit: 384f40aa5bb34124323e0859f83b6f760366b5de
+* Up-to-date as of 2021-5-16 with Sigma commit: 5a3af872d86903c13e508348f54e3b519eb01dce
 
 Inspiration from [TA-Sigma-Searches](https://github.com/dstaulcu/TA-Sigma-Searches).
 ### Currently includes the rules from: sigma/rules/windows/
@@ -19,7 +19,7 @@ The rules that were previously in the 'sysmon' folder seem to have spread throug
 
 For now, I'm treating them as if they were still in the 'sysmon' folder so the search name will still have the postfix '- sysmon'
 
-### Search Naming Convention -> $SigmaTitle - source
+### Search Naming Convention: $SigmaTitle - $source
 * Examples:
     * builtin
         * Security Eventlog Cleared - builtin
