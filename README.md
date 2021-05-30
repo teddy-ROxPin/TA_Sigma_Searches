@@ -1,6 +1,6 @@
 # TA_Sigma_Searches
 A Splunk app that contains [Florian Roth](https://twitter.com/Cyb3rOps)'s [Sigma](https://github.com/Neo23x0/sigma) rules converted to Splunk searches.
-* Up-to-date as of 2021-5-16 with Sigma commit: 5a3af872d86903c13e508348f54e3b519eb01dce
+* Up-to-date as of 2021-5-30 with Sigma commit: [503df46](https://github.com/SigmaHQ/sigma/commit/503df469687fe4d14d2119a95723485d079ec0d9)
 
 Inspiration from [TA-Sigma-Searches](https://github.com/dstaulcu/TA-Sigma-Searches).
 ### Currently includes the rules from: sigma/rules/windows/
@@ -31,7 +31,7 @@ For now, I'm treating them as if they were still in the 'sysmon' folder so the s
     * sysmon
         * Executable in ADS - sysmon
 
-### Can access the searches from 'Reports' within the app
+### Access the searches from 'Reports' within the app
 * default time of -24 hours
 ### OR 
 ### via a savedsearch:
