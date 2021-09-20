@@ -1,6 +1,6 @@
 # TA_Sigma_Searches
 A Splunk app that contains [Florian Roth](https://twitter.com/Cyb3rOps)'s [Sigma](https://github.com/Neo23x0/sigma) rules converted to Splunk searches.
-* Up-to-date as of 2021-9-11 with Sigma commit: [9299946](https://github.com/SigmaHQ/sigma/commit/92999468eef9984b0396e2ad211844a953753925)
+* Up-to-date as of 2021-9-18 with Sigma commit: [f3adb99](https://github.com/SigmaHQ/sigma/commit/f3adb997404f0b05730cb52d6417e5d23df4dad8)
 
 Inspiration from [TA-Sigma-Searches](https://github.com/dstaulcu/TA-Sigma-Searches).
 ### Currently includes the rules from: sigma/rules/windows/
@@ -10,12 +10,7 @@ Inspiration from [TA-Sigma-Searches](https://github.com/dstaulcu/TA-Sigma-Search
 * sysmon
 
 The rules that were previously in the 'sysmon' folder seem to have spread throughout the following new folders, though some still remain in 'sysmon':
-* driver_load
-* file_event
-* image_load
-* network_connection
-* process_access
-* registry_event
+* driver_load, file_event, image_load, network_connection, process_access, registry_event
 
 For now, I'm treating them as if they were still in the 'sysmon' folder so the search name will still have the postfix '- sysmon'
 
